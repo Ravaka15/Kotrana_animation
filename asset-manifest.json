@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Kotrana_animation/static/css/main.b8a12a31.css",
+    "main.js": "/Kotrana_animation/static/js/main.95342113.js",
+    "static/js/787.7604f081.chunk.js": "/Kotrana_animation/static/js/787.7604f081.chunk.js",
+    "index.html": "/Kotrana_animation/index.html",
+    "main.b8a12a31.css.map": "/Kotrana_animation/static/css/main.b8a12a31.css.map",
+    "main.95342113.js.map": "/Kotrana_animation/static/js/main.95342113.js.map",
+    "787.7604f081.chunk.js.map": "/Kotrana_animation/static/js/787.7604f081.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8a12a31.css",
+    "static/js/main.95342113.js"
+  ]
+}
