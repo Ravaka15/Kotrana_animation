@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Movie from './Movie';
 import Filter from './Filter';
 import "../../assets/styles/Movie.css";
-import {motion, AnimatePresence} from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface MovieData {
     id: number;
@@ -29,11 +29,11 @@ function Index() {
 
     return (
         <div>
-            <Filter 
-                popular={popular} 
+            <Filter
+                popular={popular}
                 setFiltered={setFiltered}
-                activeGenre={activeGenre} 
-                setActiveGenre={setActiveGenre} 
+                activeGenre={activeGenre}
+                setActiveGenre={setActiveGenre}
             />
             <motion.div layout className='popular-movies'>
                 <AnimatePresence>

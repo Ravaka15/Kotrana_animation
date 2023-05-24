@@ -1,4 +1,4 @@
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 interface MovieProps {
     movie: {
@@ -9,12 +9,12 @@ interface MovieProps {
 }
 function Movie({ movie }: MovieProps) {
     return (
-        <motion.div 
+        <motion.div
             layout
-            animate = {{ opacity: 1, scale: 1}}
-            initial = {{ opacity: 0}}
-            exit = {{opacity: 0}}
-            transition={{duration: 0.5}}
+            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.5 }}
         >
             <h2>{movie.title}</h2>
             <img
