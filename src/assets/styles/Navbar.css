@@ -1,3 +1,4 @@
+
 .navbar {
     background-color:var(--title-color-dark);
     padding: 10px;
@@ -9,6 +10,11 @@
     height: var( --mb-4);
     align-items: center;
   }
+  .navbar.red-background {
+    background: linear-gradient(to right, rgba(14, 122, 126, 0.4), rgba(124, 2, 2, 0.4));
+    transition: background 0.4s ;
+  }
+  
   
   .navbar-list {
     list-style-type: none;
