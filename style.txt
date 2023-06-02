@@ -1,20 +1,20 @@
 .navbar {
-  background-color: var(--titles-color);
+  background-color: var(--title-color-dark);
   padding: 10px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9999;
-  height: var(--mb-4);
+  height: 70px;
   align-items: center;
 }
 
 .navbar.red-background {
-  background: linear-gradient(to right, rgba(16, 211, 211, 0.3), rgba(236, 145, 8, 0.5));
+  background: linear-gradient(to right, rgba(14, 122, 126, 0.7), rgba(124, 2, 2, 0.5));
   transition: background 0.4s;
-  color: var(--bg-color);
 }
+
 
 .navbar-list {
   list-style-type: none;
@@ -28,16 +28,15 @@
 }
 
 .navbar-link {
-  color: var(--bg-color);
+  color: #fff;
   text-decoration: none;
-  font-weight: bold;
   padding: var(--big-font-size);
-  font-size: var(--h3-font-size);
 }
 
 .navbar-link:hover {
-  background: linear-gradient(to right, rgba(236, 170, 29, 0.4), rgba(255, 137, 2, 0.4));
+  background: linear-gradient(to right, rgba(236, 29, 46, 0.4), rgba(105, 3, 88, 0.4));
   color: var(--text-color);
+  font-weight: bold;
 }
 
 .navbar-logo {
@@ -45,10 +44,12 @@
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+  margin-top: var(--mb-1-5);
 }
 
 .navbar-logo img {
   width: 70px;
   height: 70px;
   border-radius: 50%;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 1);
 }

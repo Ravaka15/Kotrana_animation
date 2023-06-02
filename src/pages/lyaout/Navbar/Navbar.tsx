@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
-      const threshold = 200; // Changer la valeur si nécessaire
+      const threshold = 200;
 
       if (scrollPosition > threshold) {
         setIsNavbarTransparent(true);
@@ -28,10 +28,10 @@ const Navbar: React.FC = () => {
     <nav className={`navbar ${isNavbarTransparent ? 'transparent' : ''} ${isNavbarTransparent ? 'red-background' : ''}`}>
             <ul className="navbar-list">
                 <li className="navbar-item">
-                    <a href="/" className="navbar-link">Accueil</a>
+                    <a href="/home" className="navbar-link">Accueil</a>
                 </li>
                 <li className="navbar-item">
-                    <a href="/about" className="navbar-link">À propos</a>
+                <a href="#movie" className="navbar-link">Movie</a>
                 </li>
                 <div className="navbar-logo">
                     <img src={logo} alt="Logo" />

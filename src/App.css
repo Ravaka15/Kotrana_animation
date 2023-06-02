@@ -1,25 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Neucha&family=Poppins:wght@300&display=swap");
 
-
 /* ======== Varirables ======== */
 :root {
   /* ======== Colors ======== */
   --hue: 0;
   --sat: 0%;
-  --border-cursor: hsl(var(--hue), var(--sat), 80%);
-  --title-color: #098cf8;
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: #fff;
+  --bg-color: #b87100;
+  --background-color: #f4ecd4;
+  --title-color: #e5caa0;
+  --titles-color: #dab471;
+  --title-color-dark: #000;
+  --white-color: #fff;
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --box-shadow-img: inset 9px 10px 10px 0.5px rgba(0, 0, 10, 0.21);
-  --bg-color: #f1b15c;
-  --second-color: #007c82;
-  --color: #d4d4d4;
-  --three-color: #00adb5;
-  --background-color: #eeeeee;
+  --second-color: #dcb47c;
+  --color: #f4e4cd;
+
   /* ======== Font and typography ======== */
   --body-font: "Poppins", sans-serif;
-
   /* .5rem = 8px | 1rem = 16px ... */
 
   --big-font-size: 3.5rem;
@@ -47,23 +45,29 @@
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
   --mb-4: 5rem
-  /* ======== Z-index ======== */
-  --z-tooltip: 10;
+    /* ======== Z-index ======== */
+    --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
 
 /* Couleur de fond de la scrollbar */
 ::-webkit-scrollbar {
-  background-color: #f5f5f5;
-  width: 10px; /* Largeur de la scrollbar */
+  background-color: var(--white-color);
+  width: 10px;
 }
 
 /* Couleur de la poignée (thumb) de la scrollbar */
 ::-webkit-scrollbar-thumb {
   background-color: #888;
-  border-radius: 5px; /* Arrondir les coins de la poignée */
+  border-radius: 5px;
+  /* Arrondir les coins de la poignée */
 }
 
 /* Couleur de survol de la poignée */

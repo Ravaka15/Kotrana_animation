@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Movie from './Movie';
 import Filter from './Filter';
-import "../../../assets/styles/Movie.css";
+import "../../assets/styles/Movie.css"
 import { motion, AnimatePresence } from "framer-motion";
 
 interface MovieData {
@@ -28,6 +28,7 @@ function Index() {
     };
 
     return (
+        <section id='movie'>
         <div className='container__movie'>
             <Filter
                 popular={popular}
@@ -43,6 +44,7 @@ function Index() {
                 </AnimatePresence>
             </motion.div>
         </div>
+        </section>
     );
 }
 
