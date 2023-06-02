@@ -28,7 +28,7 @@ function Index() {
     };
 
     return (
-        <div>
+        <div className='container__movie'>
             <Filter
                 popular={popular}
                 setFiltered={setFiltered}

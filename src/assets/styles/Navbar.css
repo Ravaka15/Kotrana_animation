@@ -1,11 +1,13 @@
 .navbar {
-    background-color: #333;
+    background-color:var(--title-color-dark);
     padding: 10px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
+    height: var( --mb-4);
+    align-items: center;
   }
   
   .navbar-list {
@@ -13,22 +15,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
   }
   
   .navbar-item {
-    margin-right: 10px;
+    margin-right: var(--mb-0-75);
   }
   
   .navbar-link {
-    color: #fff;
+    color:#fff;
     text-decoration: none;
-    padding: 5px;
+    padding: var(--big-font-size);
+    font-size: var(--h3-font-size);
   }
   
   .navbar-link:hover {
-    background-color: #555;
+    background-color: var(--bg-color);
+    color: var(--title-color-dark);
+    font-weight: bold;
   }
   
   .navbar-logo {

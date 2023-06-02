@@ -10,17 +10,14 @@
   --border-cursor: hsl(var(--hue), var(--sat), 80%);
   --title-color: #098cf8;
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --text-color: #fff;
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
   --box-shadow-img: inset 9px 10px 10px 0.5px rgba(0, 0, 10, 0.21);
-  --bg-color: #00dee8;
-  --text-color: #333;
+  --bg-color: #f1b15c;
   --second-color: #007c82;
   --color: #d4d4d4;
   --three-color: #00adb5;
   --background-color: #eeeeee;
-  --color-text:#000;
   /* ======== Font and typography ======== */
   --body-font: "Poppins", sans-serif;
 
@@ -50,6 +47,7 @@
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
   --mb-3: 3rem;
+  --mb-4: 5rem
   /* ======== Z-index ======== */
   --z-tooltip: 10;
   --z-fixed: 100;
