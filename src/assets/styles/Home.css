@@ -1,3 +1,26 @@
-.container__home{
-    height: 900px;
+.container__home {
+    margin: 0 auto;
+    margin-top: 0;
+    display: flex;
+}
+
+.container__home img {
+    width: 50%;
+    height: 450px;
+}
+
+.home__content {
+    color: var(--white-color);
+    width: 50%;
+    height: 450px;
+    background-color: black;
+}
+
+.home__content h1{
+    text-align: center;
+    font-size: var(--big-font-size);
+}
+.home__content p{
+    align-items: center;
+    text-align: center;
 }

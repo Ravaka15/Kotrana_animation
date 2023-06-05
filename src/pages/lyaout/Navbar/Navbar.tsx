@@ -26,26 +26,26 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className={`navbar ${isNavbarTransparent ? 'transparent' : ''} ${isNavbarTransparent ? 'red-background' : ''}`}>
-            <ul className="navbar-list">
-                <li className="navbar-item">
-                    <a href="/home" className="navbar-link">Accueil</a>
-                </li>
-                <li className="navbar-item">
-                <a href="#movie" className="navbar-link">Movie</a>
-                </li>
-                <div className="navbar-logo">
-                    <img src={logo} alt="Logo" />
-                </div>
-                <li className="navbar-item">
-                    <a href="/contact" className="navbar-link">Contact</a>
-                </li>
-                <li className="navbar-item">
-                    <a href="/work" className="navbar-link">Travail</a>
-                </li>
-            </ul>
+      <ul className="navbar-list">
+        <li className="navbar-item">
+          <a href="/home" className="navbar-link">Accueil</a>
+        </li>
+        <li className="navbar-item">
+          <a href="#movie" className="navbar-link">Movie</a>
+        </li>
+        <div className="navbar-logo">
+          <img src={logo} alt="Logo" />
+        </div>
+        <li className="navbar-item">
+          <a href="/contact" className="navbar-link">Contact</a>
+        </li>
+        <li className="navbar-item">
+          <a href="/work" className="navbar-link">Travail</a>
+        </li>
+      </ul>
 
-        </nav>
-    );
+    </nav>
+  );
 };
 
 export default Navbar;
