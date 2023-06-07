@@ -1,0 +1,11 @@
+.custom-marker-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red; /* Couleur de l'icône */
+  }
+  
+  .marker-icon {
+    font-size: 24px; /* Taille de l'icône */
+  }
+  
