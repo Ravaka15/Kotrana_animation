@@ -21,11 +21,11 @@
 // export default App;
 import React from 'react';
 import "./App.css";
-import Map from './pages/map/Map';
+import Image from './pages/image/Image';
 function App()  {
   return (
     <div className='App'>
-      <Map/>
+      <Image/>
     </div>
   );
 };
